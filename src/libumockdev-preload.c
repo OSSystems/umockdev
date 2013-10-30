@@ -914,6 +914,7 @@ WRAP_2ARGS(int, -1, lstat, struct stat *);
 WRAP_2ARGS(int, -1, lstat64, struct stat64 *);
 
 WRAP_3ARGS(ssize_t, -1, readlink, char *, size_t);
+WRAP_3ARGS(int, -1, chown, uid_t, gid_t);
 
 WRAP_VERSTAT(__x,);
 WRAP_VERSTAT(__x, 64);
